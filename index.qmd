@@ -1,7 +1,10 @@
 ---
-title: "qmd_dashboard"
-format: dashboard
+title: "My dashboard"
+format: 
+  dashboard:
+    theme: Flatly
 editor: source
+
 ---
 
 # First code
