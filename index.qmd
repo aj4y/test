@@ -21,6 +21,7 @@ This is first qmd page
 library(tidyverse)
 mtcars %>% 
   glimpse()
+
 ```
 
 
