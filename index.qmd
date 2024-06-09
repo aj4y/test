@@ -1,0 +1,43 @@
+---
+title: "qmd_dashboard"
+format: dashboard
+editor: source
+---
+
+# First code
+
+## Row 
+
+This is first qmd page 
+
+## Row
+
+```{r}
+#| title: First code
+#| echo: true
+library(tidyverse)
+mtcars %>% 
+  glimpse()
+```
+
+
+# First plots
+
+### Column
+
+```{r}
+#| title: Plot 1
+#| echo: true
+mtcars %>% 
+  ggplot(aes(mpg,cyl))+geom_point()
+```
+
+
+```{r}
+#| title: Plot 2
+#| echo: true
+mtcars %>% 
+  ggplot(aes(cyl,mpg))+geom_point()
+
+```
+
